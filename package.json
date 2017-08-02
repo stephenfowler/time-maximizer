@@ -1,0 +1,30 @@
+{
+  "name": "time-maximizer",
+  "version": "1.0.0",
+  "description": "webtask based project to help manage time and maximize learning",
+  "main": "index.js",
+  "repository": "git@github.com:stephenfowler/time-maximizer",
+  "author": "Stephen Fowler <stephenlfowler@gmail.com>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "config": "^1.24.0",
+    "joi": "^10.1.0",
+    "jsonwebtoken": "^7.2.1",
+    "mongoose": "^4.7.4",
+    "nodemailer": "^3.1.1",
+    "promise-do": "^0.0.2",
+    "restify": "^4.3.0",
+    "restify-jwt": "^0.4.0",
+    "socket.io": "^1.7.2",
+    "webtask-tools": "^3.2.0"
+  },
+  "devDependencies": {
+    "code": "^4.0.0",
+    "cross-env": "^3.2.3",
+    "eslint": "^3.12.2",
+    "eslint-plugin-import": "^2.2.0",
+    "mocha": "^3.2.0",
+    "nodemon": "^1.11.0",
+    "supertest": "^3.0.0"
+  }
+}
